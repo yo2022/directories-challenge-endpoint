@@ -22,3 +22,4 @@ navigate to root directory of the project and run: 'npm install', followed by 'n
 
 1. project was tested on windows machine. It should work on other machines running nodejs but it was not tested on other OS.
 2. 'move' command currently doesn't support moving to root directory. It's easy to implement but convention is requried for the desired way to designate such intention.
+3. 'bulk' paste of user input is not supported. Current implementation assume user input is entered or pasted line-by-line.
